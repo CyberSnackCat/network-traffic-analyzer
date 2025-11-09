@@ -1,0 +1,15 @@
+# Thresholds and settings (tweak for your environment)
+window_seconds: 60
+port_scan:
+  unique_ports_threshold: 30
+  max_destinations: 4
+
+arp_spoof:
+  max_mac_per_ip: 1  # >1 different MACs per IP in window triggers alert
+
+dos_spike:
+  pps_threshold: 300   # packets per second from one source
+
+dns_poison:
+  ip_change_threshold: 2  # number of distinct answers in short time
+  min_suspicious_ttl: 60
