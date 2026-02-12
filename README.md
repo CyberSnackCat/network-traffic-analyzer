@@ -1,6 +1,6 @@
 # Net Sec Traffic Analyzer
 
-I built this basic Python project so i could learn how network traffic works and attacks show up. It can:
+**Why I built this** I built this basic Python project because i wanted to learn how network traffic works and how security tools find weird patterns. It started as a way for me to practice Python and ended up becoming a small dashboard that can analyze sample logs. This was one of the toughest things i've built and took quite a lot of learning online. It can:
 
 - Capture packets with **Scapy** (needs admin privileges)
 - Detect **ARP spoofing**, **DNS poisoning**, simple **port scans**, and basic **DoS spikes**
