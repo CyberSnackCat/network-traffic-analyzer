@@ -1,13 +1,13 @@
 # Net Sec Traffic Analyzer
 
-This is a basic Python project I built so i could learn how network traffic works and attacks show up. It can:
+I built this basic Python project so i could learn how network traffic works and attacks show up. It can:
 
 - Capture packets with **Scapy** (needs admin privileges)
 - Detect **ARP spoofing**, **DNS poisoning**, simple **port scans**, and basic **DoS spikes**
 - Save everything to a CSV log
 - Generate a quick **anomaly dashboard** report with charts (PNG images inside an HTML file)
 
-> I’m a high school student (10th grade) and I wanted this to be a useful way to practice cybersecurity skills without getting into trouble. If you're a random kid reading this maybe you will want to try this too
+> I’m a high school sophomore and I wanted to practice cybersecurity skills without getting into trouble. If you're a random kid reading this maybe you will want to try this too
 
 ---
 
